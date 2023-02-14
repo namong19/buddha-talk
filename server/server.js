@@ -53,5 +53,5 @@ app.post('/', async (req, res) => {
 })
 
 // make sure that the server always listen to your request
-app.listen(5000, () => console.log('Server is running on port https://buddha-talk.onrender.com'));
+app.listen(5000, () => console.log('Server is running on port https://buddha-talk.us/'));
 

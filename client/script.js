@@ -92,9 +92,9 @@ const handleSubmit = async (e) => {
   // turn on the loader
   loader(messageDiv);
   // fetch data from server -> bot's response - https if deployed or http if using localhost:5000
-  // const response =await fetch('http://localhost:5000', {
+  //const response =await fetch('http://localhost:5000', {
 
-  const response = await fetch('https://buddha-talk.onrender.com/', {  
+  const response = await fetch('https://buddha-talk.us/', {  
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
